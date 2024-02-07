@@ -1,0 +1,15 @@
+.logo-link {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 100px;
+    height: 40px;
+}
+
+.logo-text {
+    width: 100px;
+}
