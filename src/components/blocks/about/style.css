@@ -1,0 +1,26 @@
+.about {
+    height: 780px;
+    padding: 0 25px;
+    margin: 0 auto;
+    background-color: #ACBEEF;
+}
+
+.about-wrapper {
+    padding: 40px 0;
+    position: relative;
+}
+
+.text-wrapper {
+    margin-top: 100px;
+    width: 900px;
+}
+
+.about__text {
+    font-size: 20px;
+}
+
+.about__img {
+    position: absolute;
+    right: 150px;
+    top: 100px;
+}

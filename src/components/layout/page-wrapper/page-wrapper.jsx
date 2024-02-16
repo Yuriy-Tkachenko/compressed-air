@@ -1,9 +1,15 @@
 import React from "react";
-import "./style.css";
+import Header from "../header/header";
+import Main from "../../pages/main/main";
+import Footer from "../footer/footer";
 
 function PageWrapper() {
     return (
-        <div className="page"></div>
+        <>
+            <Header />
+            <Main />
+            <Footer />
+        </>
     )
 }
 

@@ -6,7 +6,6 @@ import "./style.css";
 function Header() {
     return (
         <header className="page-header">
-            <Logo />
             <Nav />
         </header>
     )

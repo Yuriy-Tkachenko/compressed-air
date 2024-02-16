@@ -1,14 +1,6 @@
-import Header from "../layout/header/header";
-import Main from "../pages/main/main";
-import Footer from "../layout/footer/footer";
 import "./style.css";
+import PageWrapper from "../layout/page-wrapper/page-wrapper";
 
 export default function App() {
-  return (
-    <div className="App">
-      <Header />
-      <Main />
-      <Footer />
-    </div>
-  );
+    return <PageWrapper />
 }
